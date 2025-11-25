@@ -10,19 +10,21 @@ How to Run the Program :
 
 1. Go to the project folder: (> cd 'file_path')
 
-2. Install required libraries
+2. Install required libraries:
 => pip install pandas seaborn matplotlib openpyxl xlsxwriter
 
-3. Run the program
+3. Run the program:
 =>python3 report_generator.py
 
 The interactive CLI will launch automatically in your terminal.
 
 Extra Functionality :
+
 	- Colored CLI interface for improved readability
 	- Automatic performance alerts for low-performing tracks / cohorts
 
 Files in the Project :
+
 	- report_generator.py => Main python script (the program)
 	- /data/ => Folder containing Excel files (student_grades_YYYY-YYYY.xlsx)
 	- /output/ => Generated visuals & reports (AFTERWARDS WHEN LAUNCHING THE PROGRAM)
